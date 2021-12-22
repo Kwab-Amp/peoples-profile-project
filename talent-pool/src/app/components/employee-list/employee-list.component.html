@@ -1,0 +1,32 @@
+<p>Employees</p>
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col" *ngFor="let e of employees">
+        <div class="card shadow-sm">
+          <img src="{{ e.photoUrl }}" alt="{{ e.photoUrl }}" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">
+              Name: {{ e.fullName }}
+            </h6>
+            <p class="card-text">
+              Email: {{ e.email }}
+            </p>
+            <p class="card-text">
+              Role: {{ e.title }}
+            </p>
+            <p class="card-text">
+              Department:
+              {{ e.department }}
+            </p>
+
+            <p class="pull-right">
+              Proficiency:
+              {{ e.profile.professionalTechStack[0] }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

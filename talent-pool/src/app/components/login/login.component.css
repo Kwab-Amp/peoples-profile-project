@@ -1,0 +1,16 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.loginform {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #f7f7f7;
+  padding: 10px;
+}
+
+.logo {
+  float: right;
+}
