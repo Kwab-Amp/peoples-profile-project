@@ -1,0 +1,11 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 75px;
+    width: 75px;
+}
+
+.profilePicture {
+    height: 75px;
+    width: 75px;
+}

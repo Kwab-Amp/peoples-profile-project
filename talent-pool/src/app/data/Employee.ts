@@ -3,9 +3,9 @@ export interface Employee {
   email: string;
   department: string;
   title: string;
-  photoUrl: string;
+  profilePicture: string;
   clientProject: string;
-  profile: {
+  techStack: {
     professionalTechStack: Array<string>,
     preferredTechStack: Array<string>,
     previousWorkingExperience: Array<string>

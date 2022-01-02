@@ -6,9 +6,9 @@ export const EMPLOYEES: Employee[] = [
       email: 'kweku.manu@exampleemail.io',
       department: 'TLC - Infinity',
       title: 'Generic Title',
-      photoUrl: '../../assets/kweku.jpg',
+      profilePicture: '../../assets/kweku.jpg',
       clientProject: 'Generic Client Project',
-      profile: {
+      techStack: {
         professionalTechStack: ["Angular"],
         preferredTechStack: [],
         previousWorkingExperience: []
@@ -19,9 +19,9 @@ export const EMPLOYEES: Employee[] = [
       email: 'kwabla.sark@exampleemail.io',
       department: 'TLC - Infinity',
       title: 'Generic Title',
-      photoUrl: '../../assets/kwabla.jpg',
+      profilePicture: '../../assets/kwabla.jpg',
       clientProject: 'Generic Client Project',
-      profile: {
+      techStack: {
         professionalTechStack: ["Data Science"],
         preferredTechStack: [],
         previousWorkingExperience: []
@@ -32,9 +32,9 @@ export const EMPLOYEES: Employee[] = [
       email: 'ama.maame@exampleemail.io',
       department: 'TLC - Infinity',
       title: 'Generic Title',
-      photoUrl: '../../assets/maame_ama.jpg',
+      profilePicture: '../../assets/maame_ama.jpg',
       clientProject: 'Generic Client Project',
-      profile: {
+      techStack: {
         professionalTechStack: ["Docker"],
         preferredTechStack: [],
         previousWorkingExperience: []
@@ -45,9 +45,9 @@ export const EMPLOYEES: Employee[] = [
       email: 'adwoa.tetteh@exampleemail.io',
       department: 'TLC - Infinity',
       title: 'Generic Title',
-      photoUrl: '../../assets/ewura_adwoa.jpg',
+      profilePicture: '../../assets/ewura_adwoa.jpg',
       clientProject: 'Generic Client Project',
-      profile: {
+      techStack: {
         professionalTechStack: ["Java"],
         preferredTechStack: [],
         previousWorkingExperience: []
