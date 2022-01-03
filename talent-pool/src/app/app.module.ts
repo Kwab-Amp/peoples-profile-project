@@ -10,13 +10,17 @@ import { GoogleLoginProvider, SocialLoginModule } from 'angularx-social-login';
 import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
 import { EmployeeListComponent } from './components/employee-list/employee-list.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserDashboardComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    UserProfileComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
